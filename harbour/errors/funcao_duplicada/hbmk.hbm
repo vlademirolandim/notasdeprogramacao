@@ -1,0 +1,15 @@
+
+-lxhb
+-Lc:\hmg.3.4.4\lib
+-Ic:\hmg.3.4.4\include
+-lhmg
+
+hbwin.hbc
+hbmzip.hbc
+hbmisc.hbc
+hbct.hbc
+hbhpdf.hbc
+
+hmg32.hbc
+
+

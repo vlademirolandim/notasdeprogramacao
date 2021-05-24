@@ -1,0 +1,3 @@
+
+(1) Precisa instalar a fonte de dados (ODBC)
+(2) hbwin.hbc

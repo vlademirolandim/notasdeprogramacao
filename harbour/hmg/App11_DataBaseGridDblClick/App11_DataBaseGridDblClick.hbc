@@ -1,0 +1,8 @@
+inc=yes
+head=native
+
+libs=vbase
+libs=vdata
+
+libpaths=${SISTEMAS_PATH_TO_LIB}
+incpaths=${SISTEMAS_PATH_TO_INCLUDE}

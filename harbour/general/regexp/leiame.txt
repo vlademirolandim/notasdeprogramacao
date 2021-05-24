@@ -1,0 +1,6 @@
+﻿Expressões regulares são essencialmente uma linguagem de descrição poderosa e muito flexível para correspondência de padrões (strings). Com expressões regulares, você pode:
+
+Verificar se a sequência inteira corresponde ao padrão especificado.
+Encontrar substrings em uma sequência que corresponda a um determinado padrão.
+Extrair substrings de uma sequência que corresponde a um determinado padrão.
+Alterar substrings na sequência que corresponde ao padrão.

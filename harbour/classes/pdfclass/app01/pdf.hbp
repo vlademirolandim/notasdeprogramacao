@@ -1,0 +1,9 @@
+-inc
+-oPdf05.Exe
+
+pdf05.prg
+pdfclass.prg
+
+xhb.hbc
+hbct.hbc
+hbhpdf.hbc

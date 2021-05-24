@@ -1,0 +1,6 @@
+
+PROCEDURE MAIN
+
+    FuncaoA()
+
+    RETURN

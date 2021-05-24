@@ -1,0 +1,20 @@
+
+Vamos criar um comando no estilo EXEC SQL que era (e ainda é) usado no Cobol e no C.
+
+exesql00 : Nada demais aqui, vamos apenas criar o procedimento manualmente usando ADO. Vou inserir um registro no banco de dados
+
+execsql01 : Agora vou pegar o procedimento manual, feito anteriormente, e transformar ele em uma função. Uso HB_StrFormat auxiliar nos parâmetros. 
+			Mas temos um probleminha. Os parâmtros devem ser convertidos para caractere antes de serem enviados para a função.
+			
+execsql02 : Criação do modelo inicial do EXEC SQL usando a função do exemplo 02 (ela sofreu uma pequena alteração para poder receber parâmetros de todo tipo)	
+
+As principais vantagens do uso de comandos são : (1) os erros de parâmetros são reportados em tempo de compilação e (2) você pode alterar a vontade a função
+correspondente, ou até mesmo, trocar por outra bastando alterar o comando no seu arquivo ch. 
+
+A desvantagem principal é a falta de flexibilidade. (1) Eu posso passar funções dentro de blocos, (2) posso expandir funções e (3) posso colocar várias em uma linha. 
+
+execsql03 : Modificação para poder mandar o comando em mais de uma linha, ficando o código mais claro.
+
+
+Nessa etapa vamos criar a função.
+

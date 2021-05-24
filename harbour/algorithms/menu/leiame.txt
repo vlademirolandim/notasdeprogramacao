@@ -1,0 +1,6 @@
+Para gerar / To generate :
+
+	hbmk2 menu
+	
+Dica : Se estiver no windows, retire o buffer do terminal, conforme a figura menu.png
+       	

@@ -1,0 +1,6 @@
+
+se compilar com a opção abaixo o arquivo erro.prg vai funcionar
+
+-ldflag=-Wl,--allow-multiple-definition
+
+Mas essas opções são desaconselhadas

@@ -1,0 +1,20 @@
+#translate ??? <explist,...> => cVar += VLJ_ValToSTR( <explist> )
+FUNCTION __VLJ_Buff;LOCAL cVar := ''
+cVar += e"<!DOCTYPE html>"
+cVar += e"<html>"
+cVar += e"	<head>"
+cVar += e"		<meta charset=\"utf-8\">"
+cVar += e"		<title>";??? "Olar";cVar += e"</title>"
+cVar += e"		<link rel=\"stylesheet\" href=\"css/styles\">"
+cVar += e"		<script src=\"js/script.js\"></script>"
+cVar += e"	</head>"
+cVar += e"	</body>"
+cVar += e"			"
+cVar += e"			";IF .t. ;cVar += e""
+cVar += e"			<h1>Opção 1 : ";??? TIME();??? "Hoje é ", Date();cVar += e" e já se passaram <prg>? SECONDS();cVar += e" segundos</h1>"
+cVar += e"			";ELSE;cVar += e""
+cVar += e"			<h1>Opção 2</h1>"
+cVar += e"			";ENDIF;cVar += e""
+cVar += e"    </body>"
+cVar += e"</html>	"
+RETURN cVar

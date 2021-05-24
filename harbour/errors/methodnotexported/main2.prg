@@ -1,0 +1,10 @@
+
+
+PROCEDURE MAIN
+
+	LOCAL A AS CHARACTER
+
+	A := 12
+	A:QualquerCoisa()
+
+	RETURN

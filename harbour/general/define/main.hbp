@@ -1,0 +1,9 @@
+-n
+-m
+-dINCLUI='foo'
+-dVERSION=12
+-dHOJE=DATE()
+-dDATE_VERSION=0d20020608
+
+main.prg
+

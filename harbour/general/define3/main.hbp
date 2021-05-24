@@ -1,0 +1,8 @@
+
+-m
+-n
+
+## Comentando abaixo e versao normal, descomentando e debug
+-d__DEBUG__
+-I./otherdir
+main.prg
